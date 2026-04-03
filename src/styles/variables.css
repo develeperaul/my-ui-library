@@ -1,0 +1,26 @@
+/* CSS переменные для всей библиотеки */
+:root {
+  /* Цвета */
+  --ui-color-primary: #3490dc;
+  --ui-color-primary-dark: #2779bd;
+  --ui-color-secondary: #6c757d;
+  --ui-color-success: #38c172;
+  --ui-color-danger: #e3342f;
+  --ui-color-warning: #f6993f;
+
+  /* Нейтральные */
+  --ui-color-white: #ffffff;
+  --ui-color-gray-100: #f8f9fa;
+  --ui-color-gray-200: #e9ecef;
+  --ui-color-gray-300: #dee2e6;
+  --ui-color-gray-700: #495057;
+  --ui-color-gray-900: #212529;
+
+  /* Размеры */
+  --ui-radius-sm: 4px;
+  --ui-radius-md: 8px;
+  --ui-radius-lg: 12px;
+
+  /* Анимации */
+  --ui-transition: all 0.2s ease;
+}

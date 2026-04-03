@@ -1,6 +1,6 @@
 {
   "name": "@ralfik/my-ui-library",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "UI компоненты на Vue 3",
   "type": "module",
   "main": "./dist/my-ui-library.umd.js",
@@ -40,6 +40,7 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
+    "@ralfik/my-ui-library": "^1.0.1",
     "vue": "^3.5.32"
   },
   "devDependencies": {

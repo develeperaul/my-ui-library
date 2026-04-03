@@ -8,5 +8,6 @@ import './styles/index.css'
 // Пока создадим заглушку для теста
 
 // Экспорт компонентов
-export { default as HelloWorld } from './components/HelloWorld.vue'
-export const version = '1.0.0'
+export { default as Calendar } from './components/Calendar.vue'
+
+export const version = '1.0.2'

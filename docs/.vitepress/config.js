@@ -1,7 +1,7 @@
 export default {
   title: 'My UI Library',
   description: 'UI компоненты на Vue 3',
-  base: '/my-ui-library/'
+  base: '/my-ui-library/',
   themeConfig: {
     nav: [
       { text: 'Главная', link: '/' },

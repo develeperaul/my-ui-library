@@ -1,13 +1,14 @@
-// Импорт стилей
+// src/index.ts
 import './styles/index.css'
 
-// Здесь будем экспортировать компоненты
-// export { default as Button } from './components/Button/Button.vue'
-// export { default as Calendar } from './components/Calendar/Calendar.vue'
+import Calendar from './components/Calendar.vue'
 
-// Пока создадим заглушку для теста
+// Экспорт по отдельности
+export { Calendar }
 
-// Экспорт компонентов
-export { default as Calendar } from './components/Calendar.vue'
+// Экспорт всех компонентов одним объектом
+const components = { Calendar }
 
-export const version = '1.0.2'
+export default components
+
+export const version = '1.0.3'

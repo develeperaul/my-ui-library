@@ -610,6 +610,7 @@ const handleReset = () => {
   border-radius: 8px;
   font-size: 14px;
   transition: all 0.2s;
+  color: #000;
 }
 
 .ui-calendar__day:hover:not(:disabled) {
